@@ -106,10 +106,10 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(70,70,79);
-		background: -moz-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-		background: -webkit-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-		background: linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
+		background: rgb(40,38,44);
+		background: -moz-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+		background: -webkit-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+		background: linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46464f",endColorstr="#89d6e6",GradientType=1);
 		background-size: auto,
  cover;
@@ -2241,7 +2241,7 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			opacity: 0.2;
-			background: #a481f0;
+			background: #353849;
 		}
 
 		select:focus::-ms-value {
@@ -2329,12 +2329,12 @@ input, select, textarea {
 			background: #ffffff;
 			border-color: #ffffff;
 			content: '\f00c';
-			color: #a481f0;
+			color: #353849;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #a0b5b3;
+			border-color: #292531;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2761,7 +2761,7 @@ input, select, textarea {
 				}
 
 				ul.pagination li > .page.active {
-					background-color: #a0b5b3;
+					background-color: #292531;
 				}
 
 			ul.pagination li:first-child {
@@ -2929,7 +2929,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #a0b5b3;
+			background-color: #292531;
 			box-shadow: none;
 		}
 
@@ -3297,7 +3297,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #a0b5b3;
+			background: #292531;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3481,10 +3481,10 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background: rgb(70,70,79);
-				background: -moz-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-				background: -webkit-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-				background: linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
+				background: rgb(40,38,44);
+				background: -moz-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+				background: -webkit-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+				background: linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
 				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46464f",endColorstr="#89d6e6",GradientType=1);
 				background-size: auto,
  cover;
@@ -3596,10 +3596,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background: rgb(70,70,79);
-			background: -moz-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-			background: -webkit-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-			background: linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
+			background: rgb(40,38,44);
+            background: -moz-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+            background: -webkit-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+            background: linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46464f",endColorstr="#89d6e6",GradientType=1);
 			background-size: auto,
  cover;
@@ -3647,13 +3647,13 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #a481f0;
+		background-color: #353849;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a481f0%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:after {
@@ -3775,11 +3775,11 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #a0b5b3;
+			background-color: #292531;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a0b5b3%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23292531%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:after {
@@ -3832,11 +3832,11 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #a481f0;
+				background-color: #353849;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a481f0%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:after {
@@ -3844,11 +3844,11 @@ input, select, textarea {
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #a0b5b3;
+				background-color: #292531;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a0b5b3%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23292531%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:after {
@@ -4058,10 +4058,10 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background: rgb(70,70,79);
-			background: -moz-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-			background: -webkit-linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
-			background: linear-gradient(135deg, rgba(70,70,79,1) 0%, rgba(68,182,185,1) 35%, rgba(137,214,230,1) 100%);
+			background: rgb(40,38,44);
+            background: -moz-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+            background: -webkit-linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
+            background: linear-gradient(115deg, rgba(40,38,44,1) 0%, rgba(122,82,209,1) 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46464f",endColorstr="#89d6e6",GradientType=1);
 			background-size: auto,
  cover;
