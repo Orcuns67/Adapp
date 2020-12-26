@@ -6,6 +6,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.topbutton {
+    position: fixed;
+    left: 20px;
+    top: 50px;
+	color: white;
+	margin-top: 5rem;
+	opacity: 1;
+	
+}
+.topbutton:hover{
+	color:rgba(122,82,209);
+}
+
 .bannerimg {
     float: right;
     opacity: 0.6;
