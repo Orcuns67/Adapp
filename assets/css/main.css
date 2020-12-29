@@ -9,10 +9,6 @@
 @media screen and (min-width: 401px) and (max-width: 1024px) {
 	.topbutton { display: none; }
   }
-  @media screen and (max-width: 1024px) {
-	.bannerimg { height: 50%; }
-  }
-
 .topbutton {
     position: fixed;
     left: 20px;
@@ -29,7 +25,7 @@
 .bannerimg {
     float: right;
     opacity: 0.3;
-    height: 205px;
+    height: 180px;
     margin-right: -33px;
     margin-top: -51px;
 }
