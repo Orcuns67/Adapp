@@ -10,7 +10,7 @@
 	.topbutton { display: none; }
   }
   @media screen and (max-width: 1024px) {
-	.bannerimg { height: 100px; }
+	.bannerimg { height: 50%; }
   }
 
 .topbutton {
