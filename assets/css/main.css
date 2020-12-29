@@ -9,6 +9,10 @@
 @media screen and (min-width: 401px) and (max-width: 1024px) {
 	.topbutton { display: none; }
   }
+  @media screen and (min-width: 401px) and (max-width: 1024px) {
+	.bannerimg { height: 170px; }
+  }
+
 .topbutton {
     position: fixed;
     left: 20px;
