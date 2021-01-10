@@ -4220,7 +4220,7 @@ input, select, textarea {
   
   /* Add styles to the form container */
   .form-container {
-	    margin-top: 5%;
+	    margin-top: 10%;
 		padding: 10px;
 		background-color: #4d5060;
 		background: transparent;
