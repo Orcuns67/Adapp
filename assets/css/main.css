@@ -4212,6 +4212,7 @@ input, select, textarea {
     width: 100%;
     background-color: rgb(40,38,44);
     opacity: 0.9;
+	  display: none;  
   }
   
   /* Add styles to the form container */
