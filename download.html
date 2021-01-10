@@ -12,28 +12,45 @@
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">Adapp</a></h1>
+			<nav>
+				<a href="#menu">Menu</a>
+				<a class="open-button" onclick="openForm()" href="#signup">Sign Up</a>
+			</nav>
+		</header>
 
-				<!-- Menu -->
-				<nav id="menu">
-					<div class="inner">
-						<h2>Menu</h2>
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="signup">Sign Up</a></li>
-							<li><a href="download.html">Download</a></li>
-							<li><a href="aboutus.html">About Us</a></li>
-							<li><a href="#footer">Contact Us</a></li>
-						</ul>
-						<a href="#" class="close">Close</a>
-					</div>
-				</nav>
+		<!-- Menu -->
+		<nav id="menu">
+			<div class="inner">
+				<h2>Menu</h2>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a class="open-button" onclick="openForm()" href="#signup">Sign Up</a></li>
+					<li><a href="download.html">Download</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="#footer">Contact Us</a></li>
+				</ul>
+				<a href="#" class="close">Close</a>
+			</div>
+		</nav>
+
+				<!-- Sign Up-->
+				<div class="form-popup" id="myForm">
+					<form action="/action_page.php" class="form-container">
+						<h1 style="text-align: center;">Sign Up</h1>
+				
+						<label for="email"><b>Email</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+					
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+					
+						<button type="submit" class="btn">Sign Up</button>
+						<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+					</form>
+				</div>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
@@ -127,6 +144,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/form.js"></script>
 
 	</body>
 </html>
