@@ -31,7 +31,7 @@
 				<h2>Menu</h2>
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="signup">Sign Up</a></li>
+					<li><a class="open-button" onclick="openForm()" href="#signup">Sign Up</a></li>
 					<li><a href="download.html">Download</a></li>
 					<li><a href="aboutus.html">About Us</a></li>
 					<li><a href="#footer">Contact Us</a></li>
@@ -43,7 +43,7 @@
 		<!-- Sign Up-->
 		<div class="form-popup" id="myForm">
 			<form action="/action_page.php" class="form-container">
-			  <h1>Sign Up</h1>
+			  <h1 style="text-align: center;">Sign Up</h1>
 		  
 			  <label for="email"><b>Email</b></label>
 			  <input type="text" placeholder="Enter Email" name="email" required>
@@ -203,6 +203,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/form.js"></script>
 	<script>
 		//Get the button:
 	mybutton = document.getElementById("myBtn");
@@ -226,15 +227,6 @@
 			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}
 		</script>
-<script>
-	function openForm() {
-	  document.getElementById("myForm").style.display = "block";
-	}
-	
-	function closeForm() {
-	  document.getElementById("myForm").style.display = "none";
-	}
-	</script>
 </body>
 
 </html>
