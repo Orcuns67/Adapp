@@ -269,7 +269,7 @@ input, select, textarea {
 	strong, b {
 		color: #ffffff;
     font-weight: 600;
-    margin-left: 25%;
+    margin-left: 0%;
 	}
 
 	em, i {
@@ -2281,7 +2281,7 @@ input, select, textarea {
 
 	textarea {
 		padding: 0.75em 1em;
-		width: 25rem;
+		width: 43rem;
 	}
 
 	input[type="checkbox"],
@@ -4266,3 +4266,15 @@ input, select, textarea {
   .form-container .btn:hover, .open-button:hover {
 	opacity: 1;
   }
+
+ .jfif {
+	width: 200px;
+	height: 150px;
+	overflow: hidden;
+ }
+
+ .jfif img {
+	width: 400px;
+	height: 300px;
+	margin: -75px 0 0 -100px;
+ }
