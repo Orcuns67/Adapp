@@ -4153,7 +4153,7 @@ input, select, textarea {
 
 				#footer .inner .copyright {
 					margin: 4em 0 2em 0;
-					display: flex;
+					display: none;
 				}
 
 	}
