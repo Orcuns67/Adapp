@@ -4434,5 +4434,32 @@ hr {
   }
 }
 
+#aboutimg {
+	display: inline-flex;
+
+
+}
+#aboutimg3 {
+	max-width: 200%;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 30px;	
+}
+
+#abouttable {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 480px) {
+ #aboutimg{
+	 display: inherit;
+ }
+ #abouttable {
+	 display: none;
+
+ }
+}
 
 
