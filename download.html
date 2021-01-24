@@ -34,6 +34,27 @@
 						<a href="#" class="close">Close</a>
 					</div>
 				</nav>
+				
+						<!-- Sign Up-->
+		<div class="form-popup" id="myForm">
+			<form action="/action_page.php" class="form-container" id="cancelform">
+			  <h1 style="text-align: center; ">Sign Up</h1>
+		  
+			  <label for="email"><b>Email</b></label>
+			  <input type="text" placeholder="Enter Email" name="email" required>
+		  
+			  <label for="psw"><b>Password</b></label>
+			  <input type="password" placeholder="Enter Password" name="psw" required>
+				
+			  <label for="psw"><b>Repeat Password</b></label>
+			  <input type="password" placeholder="Enter Password" name="psw" required>
+			  <p style="margin-left: 25%;">By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms </a>&<a href="privacy.html" style="color:dodgerblue"> Privacy</a>.</p>
+		  
+			  <button type="submit" class="btn">Sign Up</button>
+			  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+			</form>
+		  </div>
+
 
 				<!-- Wrapper -->
 					<section id="wrapper">
@@ -144,4 +165,19 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+		<script>
+			// Get the modal
+			var modal = document.getElementById('myForm');
+			var fons = document.getElementById('cancelform');
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == fons) {
+				modal.style.display = "none";
+			  }
+			  else if(event.target == modal) {
+				  modal.style.display ="none";
+			  }
+			}
+		</script>
 </html>
