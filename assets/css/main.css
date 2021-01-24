@@ -269,7 +269,7 @@ input, select, textarea {
 	strong, b {
 		color: #ffffff;
     font-weight: 600;
-    margin-left: 25%;
+    margin-left: 0%;
 	}
 
 	em, i {
@@ -2281,7 +2281,7 @@ input, select, textarea {
 
 	textarea {
 		padding: 0.75em 1em;
-		width: 20rem;
+		width: 25rem;
 	}
 
 	input[type="checkbox"],
@@ -3711,9 +3711,7 @@ input, select, textarea {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
 		}
 
-		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
-		}
+		
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
@@ -4275,6 +4273,158 @@ input, select, textarea {
 
  .jfif img {
 	width: 400px;
-	height: 300px;
+	height: 100px;
 	margin: -75px 0 0 -100px;
  }
+
+
+
+
+#fozy {
+	
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	top: 100px;
+}
+
+#forcun {
+	
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin-left: 300px;
+	top: 100px;
+	
+	
+	
+
+	
+}
+
+#filkay{
+	
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 310px;
+}
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  
+  color: white;
+  padding: 0px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 0px 20px;
+  
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(40, 38, 44);
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid rgb(20, 19, 19);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
