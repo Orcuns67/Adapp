@@ -24,7 +24,13 @@
 .topbutton:hover{
 	color:rgba(122,82,209);
 }
-
+.bannerimg2 {
+    float: right;
+    opacity: 0.3;
+    height: 180px;
+    margin-right: -33px;
+    margin-top: -51px;
+}
 .bannerimg {
     float: right;
     opacity: 0.3;
